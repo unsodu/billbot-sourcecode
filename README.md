@@ -12,3 +12,10 @@ Copyright (C) 2026 unsodu
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#bot
+
+made by "cedarist." on discord.
+sharing is caring as they say. This is my bot and its source code. itd be helpful to share with you my helpful tools and moderation bot.
+so yeah and stuff dont breach license agreement ig.
+id appreciate any forks and bug reports :)
