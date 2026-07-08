@@ -57,8 +57,8 @@ Termux:
 first, in any platform do
 
 ```bash
-git clone https://github.com/unsodu/aDiscordBot.git
-cd aDiscordBot
+git clone https://github.com/unsodu/billbot-sourcecode.git
+cd billbot-sourcecode
 ```
 then:
 
