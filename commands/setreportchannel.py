@@ -5,7 +5,7 @@ from utils.reportconfig import save_channel
 
 @app_commands.command(
     name="set-reportchannel",
-    description="Set the channel where reports are sent"
+    description="Set the channel where reports are forwarded"
 )
 @app_commands.checks.has_permissions(administrator=True)
 async def set_reportchannel(

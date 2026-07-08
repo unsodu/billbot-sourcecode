@@ -1,3 +1,4 @@
+import discord_vr
 import os
 import discord
 import asyncio
@@ -49,22 +50,9 @@ class MyClient(discord.Client):
         else:
             await self.tree.sync()
 
-        asyncio.create_task(self.status_loop())
 
     async def on_ready(self):
         print(f"Logged in as {self.user}")
-
-    async def status_loop(self):
-        await self.wait_until_ready()
-
-        while not self.is_closed():
-            await self.change_presence(
-                activity=discord.Streaming(
-                    name="?cmds for help",
-                    url="https://twitch.tv/a"
-                )
-            )
-            await asyncio.sleep(60)
 
     async def on_message(self, message):
         if message.author.bot:
