@@ -48,8 +48,8 @@ async def handle_message(client, message):
     )
 
     embed.add_field(
-        name="/songfind",
-        value="`/songfind`\nUpload a file to identify a song(EXPERIMENTAL DONT USE).",
+        name="/report",
+        value="`/report`\nReport an issue to mods(EXPERIMENTAL).",
         inline=False
     )
 
@@ -68,6 +68,18 @@ async def handle_message(client, message):
     embed.add_field(
         name="/dec",
         value="`/dec <password> <salt> <ciphertext>`\nDecrypts a message.",
+        inline=False
+    )
+
+    embed.add_field(
+        name="/set-reportchannel",
+        value="`/set-reportchannel <channnel>`\nDecrypts a message.",
+        inline=False
+    )
+
+    embed.add_field(
+        name="/speechbubble",
+        value="`/speechbubble <image> [togif:T/F]`\nAdds a speechbubble lol.",
         inline=False
     )
 
